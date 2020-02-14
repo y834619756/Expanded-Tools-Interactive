@@ -39,5 +39,8 @@ a:link{
 a:hover{
 	text-decoration: underline;
 }
-
+img{
+	width: 90vw;
+	margin:5vw;
+}
 
