@@ -1,0 +1,51 @@
+
+.line{
+	width:100vw;
+    height: 8px;
+    background-color: black;
+    padding: 0px;
+    margin: 10vh 0vh 0px 0px;
+    z-index: -1;
+}
+
+
+
+#blue1{
+	width:100vw;
+	height: 7vw;
+	position: absolute;
+	top:20vh;
+	transform: skewY(-12deg);
+	background-color: white;
+	z-index: 1;
+}
+
+#blue2{
+	width:100vw;
+	height: 7vw;
+	position: absolute;
+	top:45vh;
+	transform: skewY(-12deg);	
+	background-color:white;
+	z-index: 1;
+}
+
+#blue3{
+	width:100vw;
+	height: 7vw;
+	position: absolute;
+	top:70vh;
+	transform: skewY(-12deg);
+	background-color: white;
+	z-index: 1;
+}
+
+#blue4{
+	width:100vw;
+	height: 7vw;
+	position: absolute;
+	top:95vh;
+	transform: skewY(-12deg);
+	background-color: white;
+	z-index: 1;
+}
