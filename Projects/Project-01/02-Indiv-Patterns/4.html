@@ -1,5 +1,5 @@
 <!DOCTYPE Html>
-	<html>
+<html>
 		<head>
 			<title>Pattern 4</title>
 			<meta charset="utf-8">
@@ -11,47 +11,59 @@
 		<body>
 			<br>
 			<br>
-			<div class="first1"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
+			<p id=number> 0 </p>
+			<div class="first1"onclick="toggle_hide('shape-1');" id="shape-1"> </div>
+			<div class="first"onclick="toggle_hide('shape-2');" id="shape-2"> </div>
+			<div class="first"onclick="toggle_hide('shape-3');" id="shape-3"> </div>
+			<div class="first"onclick="toggle_hide('shape-4');" id="shape-4"> </div>
+			<div class="first"onclick="toggle_hide('shape-5');" id="shape-5"> </div>
 			<br>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
+			<div class="second"onclick="toggle_hide('shape-6');" id="shape-6"> </div>
+			<div class="second"onclick="toggle_hide('shape-7');" id="shape-7"> </div>
+			<div class="second"onclick="toggle_hide('shape-8');" id="shape-8"> </div>
+			<div class="second"onclick="toggle_hide('shape-9');" id="shape-9"> </div>
+			<div class="second"onclick="toggle_hide('shape-10');" id="shape-10"> </div>
 			<br>
-			<div class="first1"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
+			<div class="first1"onclick="toggle_hide('shape-11');" id="shape-11"> </div>
+			<div class="first"onclick="toggle_hide('shape-12');" id="shape-12"> </div>
+			<div class="first"onclick="toggle_hide('shape-13');" id="shape-13"> </div>
+			<div class="first"onclick="toggle_hide('shape-14');" id="shape-14"> </div>
+			<div class="first"onclick="toggle_hide('shape-15');" id="shape-15"> </div>
 			<br>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
+			<div class="second"onclick="toggle_hide('shape-16');" id="shape-16"> </div>
+			<div class="second"onclick="toggle_hide('shape-17');" id="shape-17"> </div>
+			<div class="second"onclick="toggle_hide('shape-18');" id="shape-18"> </div>
+			<div class="second"onclick="toggle_hide('shape-19');" id="shape-19"> </div>
+			<div class="second"onclick="toggle_hide('shape-20');" id="shape-20"> </div>
 			<br>
-			<div class="first1"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
-			<div class="first"> </div>
+			<div class="first1"onclick="toggle_hide('shape-21');" id="shape-21"> </div>
+			<div class="first"onclick="toggle_hide('shape-22');" id="shape-22"> </div>
+			<div class="first"onclick="toggle_hide('shape-23');" id="shape-23"> </div>
+			<div class="first"onclick="toggle_hide('shape-24');" id="shape-24"> </div>
+			<div class="first"onclick="toggle_highlight('shape-25');" id="shape-25"> </div>
 			<br>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-			<div class="second"> </div>
-
-
-
-
-
-
+			<div class="second"onclick="toggle_hide('shape-26');" id="shape-26"> </div>
+			<div class="second"onclick="toggle_hide('shape-27');" id="shape-27"> </div>
+			<div class="second"onclick="toggle_hide('shape-28');" id="shape-28"> </div>
+			<div class="second"onclick="toggle_hide('shape-29');" id="shape-29"> </div>
+			<div class="second"onclick="toggle_hide('shape-30');" id="shape-30"> </div>
 		</body>
-	</html>
+	<script type="text/javascript">
+		var x = 0;
+		function toggle_hide(id) {
+	          var e = document.getElementById(id);
+	          e.style.visibility = 'hidden' ;
+	          console.log(e);
+	          x=x+1;
+	          document.getElementById('number').innerHTML=x;
+	     	}
+	     function toggle_highlight(id) {
+	          var a= document.getElementById(id);
+	          a.style.background='orange';
+	          x=x+1;
+	          document.getElementById('number').innerHTML=x;
+	          document.getElementById('number').style.color='orange';
+	     	}
+	</script>
+</html>
 	

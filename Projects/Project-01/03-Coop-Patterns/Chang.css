@@ -1,0 +1,36 @@
+#one{
+    width:100%;
+	height: 100%;
+	position: absolute;
+    background:repeating-linear-gradient(20deg, yellow, red 20%);
+}
+#two{
+    width:100%;
+	height: 100%;
+	position: absolute;
+    background:repeating-linear-gradient(80deg, yellow, red 20%);
+}
+#three{
+    width:100%;
+	height: 100%;
+	position: absolute;
+    background:repeating-linear-gradient(140deg, yellow, red 20%);
+}
+#four{
+    width:100%;
+	height: 100%;
+	position: absolute;
+    background:repeating-linear-gradient(200deg, yellow, red 20%);
+}
+#five{
+    width:100%;
+	height: 100%;
+	position: absolute;
+    background:repeating-linear-gradient(260deg, yellow, red 20%);
+}
+#six{
+    width:100%;
+	height: 100%;
+	position: absolute;
+    background:repeating-linear-gradient(320deg, yellow, red 20%);
+}

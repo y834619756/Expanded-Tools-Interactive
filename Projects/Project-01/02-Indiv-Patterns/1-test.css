@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to right bottom,blue,pink,orange,red);
+    background-repeat: no-repeat;
+}
 
 .container{
     width: 1000%;
@@ -25,14 +29,18 @@
 	width: 100px;
     height: 100px;
     border-style: solid;
+    border-color:white;
     padding: 0px;
     margin-right:182px;
     display: inline-block;
     border-width:4px;
 }
 .black1:hover{
-    background-color: #FF0000;
-    transform:matrix(0.8,0.2,0.2,0.8,0,0);    
+   background: linear-gradient(to left top,blue,pink,orange,red);
+    
+    transform:matrix(0.8,0.2,0.2,0.8,0,0);
+    border-color:linear-gradient(to left top,blue,pink,orange,red);;
+    border-width:0px;    
 }
 
 .black2{
@@ -40,6 +48,7 @@
 	width: 100px;
     height: 100px;
     border-style: solid;
+    border-color:white;
     padding: 0px;
     margin-right:182.5px;
     display: inline-block;
@@ -48,8 +57,11 @@
 }
 
 .black2:hover{
-    background-color: #00ff00;
+background: linear-gradient(to left top,blue,pink,orange,red);
+    
     transform:matrix(0.8,0.2,0.2,0.8,0,0);
+    border-color:transparent;
+    border-width:0px; 
 }
 
 .black3{
@@ -57,6 +69,7 @@
 	width: 100px;
     height: 100px;
     border-style: solid;
+    border-color:white;
     padding: 0px;
     margin-right:182px;
     display: inline-block;
@@ -64,27 +77,35 @@
 
 }
 .black3:hover{
-    background-color: #0000FF;
+background: linear-gradient(to left top,blue,pink,orange,red);
+    
     transform:matrix(0.8,0.2,0.2,0.8,0,0);
+    border-color:transparent;
+    border-width:0px; 
 }
 .black4{
         box-sizing: border-box;
 	width: 100px;
     height: 100px;
     border-style: solid;
+    border-color:white;
     margin-right:183px;
     display: inline-block;
      border-width:4px;
  }
  .black4:hover{
-    background-color: #fff000;
+background: linear-gradient(to left top,blue,pink,orange,red);
+    
     transform:matrix(0.8,0.2,0.2,0.8,0,0);
+    border-color:transparent;
+    border-width:0px; 
 }
 .black5{
         box-sizing: border-box;
     width: 100px;
     height: 100px;
     border-style: solid;
+    border-color:white;
     padding: 0px;
     margin-right:182.5px;
     display: inline-block;
@@ -92,20 +113,27 @@
 
 }
 .black5:hover{
-    background-color: #0fff00;
+background: linear-gradient(to left top,blue,pink,orange,red);
+    
     transform:matrix(0.8,0.2,0.2,0.8,0,0);
+    border-color:transparent;
+    border-width:0px; 
 }
 .black6{
         box-sizing: border-box;
     width: 100px;
     height: 100px;
     border-style: solid;
+    border-color:white;
     margin-right:182px;
     display: inline-block;
      border-width:4px;
 }
 .black6:hover{
-    background-color: #00fff0;
+background: linear-gradient(to left top,blue,pink,orange,red);
+    
     transform:matrix(0.8,0.2,0.2,0.8,0,0);
+    border-color:transparent;
+    border-width:0px; 
 }
 

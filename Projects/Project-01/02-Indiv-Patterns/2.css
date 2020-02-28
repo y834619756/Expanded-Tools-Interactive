@@ -1,10 +1,10 @@
 
 .line{
 	width:1000;
-    height: 5px;
-    background-color: black;
+    height: 1vh;
+    background:#0c0c75;
     padding: 0px;
-    margin: 14.4vh 0px 0px 0px;
+    margin: 10vh 0px 0px 0px;
     background-repeat: repeat-x;
     z-index: -1;
 }
@@ -14,33 +14,37 @@
 #blue1{
 	width:70vw;
 	height: 7vw;
-	position: absolute;
+	position: fixed;
 	top:20vh;
 	left: 15vw;
 	transform: skewY(-12deg);
-	background-color: rgb(28 116 211);
-	z-index: 1;
+	background-color:orange;
+	opacity: 0.8;
 }
 
 #blue2{
 	width:70vw;
 	height: 7vw;
-	position: absolute;
+	position: fixed;
 	top:45vh;
 	left: 15vw;
 	transform: skewY(-12deg);
-	background-color: rgb(28 116 211);
-	z-index: 1;
+	background-color:orange;
+	opacity: 0.8;
+
+
 }
 
 #blue3{
 	width:70vw;
 	height: 7vw;
-	position: absolute;
+	position: fixed;
 	top:70vh;
 	left: 15vw;
 	transform: skewY(-12deg);
-	background-color: rgb(28 116 211);
-	z-index: 1;
+	background-color:orange;
+	opacity: 0.8;
+
+
 }
 

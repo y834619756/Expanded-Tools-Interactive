@@ -1,4 +1,14 @@
+ p{
+    position: fixed;
+    top:-2vw;
+    left:5vw;
+    z-index: -1;
+    font-size:5vw;
+    font-family: Arial;
+    opacity: 0.9;
+    color: #0c0c75;
 
+ }   
 .first1{
 	display: inline-block;
 	width:16vw;

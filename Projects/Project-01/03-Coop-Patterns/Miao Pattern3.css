@@ -1,0 +1,26 @@
+.roundnround{
+    width:300px;
+    height:300px;
+    border-bottom-right-radius: 100%;
+    background-color: #ffcccc;
+    transform: translate(100px,100px);
+    }
+.roundnround:before{
+    display: block;
+    content:"";
+    width:300px;
+    height:300px;
+    border-top-left-radius: 100%;
+    background-color: #006699;
+    transform: translate(100px, 100px);
+    
+}
+.roundnround:after{
+    display:block;
+    content:"";
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    background-color: rgb(255,224,235);
+    transform: translate(70px,-230px);
+}

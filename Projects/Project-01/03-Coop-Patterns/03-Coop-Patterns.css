@@ -34,6 +34,7 @@ ul li{
 a:link{
 	color: #0000ff;
 	text-decoration: none;
+	padding: 5vw;
 }
 
 a:hover{

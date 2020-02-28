@@ -1,0 +1,53 @@
+.set1{
+    display: inline-block;
+    position: relative;
+}
+.set2{
+    display: inline-block;
+    position: relative;
+    margin-left: 12vw;
+}
+.set3{
+    display: inline-block;
+    position: relative;
+    margin-top: 12vw;
+}
+
+.left{
+    width:12vw;
+    height:12vw;
+    border-bottom-right-radius: 100%;
+    background-color: #ffcccc;
+    position: absolute;
+    display: inline-block;
+    margin: -2.5px;
+    }
+.right{
+    width:12vw;
+    height:12vw;
+    border-top-left-radius: 100%;
+    background-color: #006699;
+    margin: -2.5px;
+    left: 1.5vw;
+    top:1.5vw;
+    display: inline-block;
+    position: absolute;    
+}
+.ball{
+    width:3vw;
+    height:3vw;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #006699;
+    top:2.4vw;
+    left:2.4vw;
+    display: inline-block;
+    position: absolute;
+    z-index: 1; 
+}
+.ball:hover{
+    background-color: #ffcccc;
+    top:4.4vw;
+    left:4.4vw;
+
+}

@@ -1,51 +1,52 @@
 
 .line{
-	width:100vw;
-    height: 8px;
-    background-color: black;
+	width:1000;
+    height: 1vh;
+    background:black;
     padding: 0px;
-    margin: 10vh 0vh 0px 0px;
+    margin: 10vh 0px 0px 0px;
+    background-repeat: repeat-x;
     z-index: -1;
 }
 
 
 
-#blue1{
-	width:100vw;
-	height: 7vw;
-	position: absolute;
+#white1{
+	width:71.8vw;
+	height: 8vw;
+	position: fixed;
 	top:20vh;
+	left: 15vw;
 	transform: skewY(-12deg);
-	background-color: white;
-	z-index: 1;
-}
-
-#blue2{
-	width:100vw;
-	height: 7vw;
-	position: absolute;
-	top:45vh;
-	transform: skewY(-12deg);	
 	background-color:white;
-	z-index: 1;
+}
+#white1:hover{
+	background-image: repeating-linear-gradient(to right,black,black 1vh,transparent 1vh,transparent 4vh);
 }
 
-#blue3{
-	width:100vw;
-	height: 7vw;
-	position: absolute;
+#white2{
+	width:71.8vw;
+	height: 8vw;
+	position: fixed;
+	top:45vh;
+	left: 15vw;
+	transform: skewY(-12deg);
+	background-color:white;
+}
+#white2:hover{
+	background-image: repeating-linear-gradient(to bottom,black,black 1vh,transparent 1vh,transparent 2vh);
+}
+
+#white3{
+	width:71.8vw;
+	height: 8vw;
+	position: fixed;
 	top:70vh;
+	left: 15vw;
 	transform: skewY(-12deg);
-	background-color: white;
-	z-index: 1;
+	background-color:white;
+}
+#white3:hover{
+	background-image: repeating-linear-gradient(12deg,black,black 1vh,transparent 1vh,transparent 3vh);
 }
 
-#blue4{
-	width:100vw;
-	height: 7vw;
-	position: absolute;
-	top:95vh;
-	transform: skewY(-12deg);
-	background-color: white;
-	z-index: 1;
-}
