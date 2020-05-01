@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8"> 
+	    <title>Alphabet</title>
+	    <link href="puzzle.css" media="all" rel="stylesheet" type="text/css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	</head>
+
+	<body>
+	<div id="arrow">
+	<div id="arrow-right"></div>
+	<div id="arrow-left"></div>
+	</div>
+	<div id="container">
+		<div class="center-vertical" id="A">
+			<div id="A-V">
+			</div>
+			<div id="A-V2">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="B">
+			<div id="B-H">
+			</div>
+			<div id="B-H2">
+			</div>
+			<div id="B-H">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="C">
+			<div id="C-V">
+			</div>
+			<div id="C-H">
+			</div>
+		</div>
+
+		<div class="center-horizantal"id="D">
+			<div id="D-V">
+			</div>
+			<div id="D-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="E">
+			<div id="E-H">
+			</div>
+			<div id="E-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="F">
+			<div id="F-H">
+			</div>
+			<div id="F-I">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="G">
+			<div id="G-H">
+			</div>
+			<div id="G-V">
+			</div>
+			<div id="G-H2">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="H">
+			<div id="H-V">
+			</div>
+			<div id="H-V">
+			</div>			
+		</div>
+
+		<div class="center-vertical" id="I">
+			<div id="I-B">
+				<div id="I-I">
+				</div>
+				<div id="I-I2">
+				</div>	
+			</div>
+			<div id="I-B">
+				<div id="I-I2">
+				</div>
+				<div id="I-I">
+				</div>	
+			</div>
+		</div>
+
+		<div class="center-vertical" id="J">
+			<div id="J-H">
+			</div>
+			<div id="J-V">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="K">
+			<div id="K-V">
+			</div>
+			<div id="K-H">
+			</div>
+			<div id="K-V">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="L">
+			<div id="L-I">
+			</div>
+			<div id="L-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="M">
+			<div id="M-V">
+			</div>
+			<div id="M-B">
+				<div id="M-V2">
+				</div>
+				<div id="M-V2">
+				</div>
+			</div>
+		</div>
+
+		<div class="center-vertical" id="N">
+			<div id="N-I1">
+			</div>
+			<div id="N-I2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="O">
+			<div id="O-V">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="P">
+			<div id="P-V">
+			</div>
+			<div id="P-V2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Q">
+			<div id="Q-V">
+			</div>
+			<div id="Q-I">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="R">
+			<div id="R-V">
+			</div>
+			<div id="R-H">
+			</div>
+			<div id="R-H2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="S">
+			<div id="S-I1">
+			</div>
+			<div id="S-I2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="T">
+			<div id="T-I1">
+			</div>
+			<div id="T-I2">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="U">
+			<div id="U-V">
+			</div>
+			<div id="U-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="V">
+			<div id="V-V">
+			</div>
+			<div id="V-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="W">
+			<div id="W-B">
+				<div id="W-V2">
+				</div>
+				<div id="W-V2">
+				</div>
+			</div>
+			<div id="W-V">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="X">
+			<div id="X-V">
+			</div>
+			<div id="X-B">
+				<div id="X-H">
+				</div>
+				<div id="X-H">
+				</div>
+			</div>
+			<div id="X-V">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="Y">
+			<div id="Y-V">
+			</div>
+			<div id="Y-B">
+				<div id="Y-I">
+				</div>
+				<div id="Y-I2">
+				</div>
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Z">
+			<div id="Z-I1">
+			</div>
+			<div id="Z-I2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Zero">
+			<div id="Zero-V">
+			</div>
+		</div>
+	
+		<div class="center-vertical" id="One">
+			<div id="One-I">
+			</div>
+			<div id="One-H">
+			</div>
+			<div id="One-H2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Two">
+			<div id="Two-I">
+			</div>
+			<div id="Two-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="Three">
+			<div id="Three-I">
+			</div>
+			<div id="Three-I2">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="Four">
+			<div id="Four-V">
+			</div>
+			<div id="Four-I">
+			</div>
+			<div id="Four-I2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Five">
+			<div id="Five-H">
+			</div>
+			<div id="Five-V">
+			</div>
+			<div id="Five-H2">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="Six">
+			<div id="Six-H">
+			</div>
+			<div id="Six-H2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Seven">
+			<div id="Seven-I">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="Eight">
+			<div id="Eight-H">
+			</div>
+			<div id="Eight-B">
+				<div id="Eight-H2">
+				</div>
+				<div id="Eight-H2">
+				</div>
+			</div>
+			<div id="Eight-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="Nine">
+			<div id="Nine-H">
+			</div>
+			<div id="Nine-H2">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="DQM">
+			<div id="DQM-V">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Comma">
+			<div id="Comma-I">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="Period">	
+		</div>
+
+		<div class="center-horizantal" id="EM">
+			<div id="EM-H">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="LB">
+			<div id="LB-H">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="RB">
+			<div id="RB-H">
+			</div>
+		</div>
+	</div>
+	<div id="container1">
+
+		<div class="center-horizantal" id="S">
+			<div id="S-I1">
+			</div>
+			<div id="S-I2">
+			</div>
+		</div>
+
+		<div class="center-horizantal" id="T">
+			<div id="T-I1">
+			</div>
+			<div id="T-I2">
+			</div>
+		</div>
+		<div class="center-horizantal" id="R">
+			<div id="R-V">
+			</div>
+			<div id="R-H">
+			</div>
+			<div id="R-H2">
+			</div>
+		</div>
+		<div class="center-vertical" id="E">
+			<div id="E-H">
+			</div>
+			<div id="E-H">
+			</div>
+		</div>
+		<div class="center-horizantal" id="S">
+			<div id="S-I1">
+			</div>
+			<div id="S-I2">
+			</div>
+		</div>
+		<div class="center-horizantal" id="S">
+			<div id="S-I1">
+			</div>
+			<div id="S-I2">
+			</div>
+		</div>
+		<div class="center-vertical" id="B">
+			<div id="B-H">
+			</div>
+			<div id="B-H2">
+			</div>
+			<div id="B-H">
+			</div>
+		</div>
+		<div class="center-horizantal"id="D">
+			<div id="D-V">
+			</div>
+			<div id="D-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="L">
+			<div id="L-I">
+			</div>
+			<div id="L-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="U">
+			<div id="U-V">
+			</div>
+			<div id="U-H">
+			</div>
+		</div>
+		<div class="center-horizantal" id="C">
+			<div id="C-V">
+			</div>
+			<div id="C-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="K">
+			<div id="K-V">
+			</div>
+			<div id="K-H">
+			</div>
+			<div id="K-V">
+			</div>
+		</div>
+		<div class="center-vertical" id="Y">
+			<div id="Y-V">
+			</div>
+			<div id="Y-B">
+				<div id="Y-I">
+				</div>
+				<div id="Y-I2">
+				</div>
+			</div>
+		</div>
+		<div class="center-vertical" id="J">
+			<div id="J-H">
+			</div>
+			<div id="J-V">
+			</div>
+		</div>
+		<div class="center-vertical" id="K">
+			<div id="K-V">
+			</div>
+			<div id="K-H">
+			</div>
+			<div id="K-V">
+			</div>
+		</div>
+		<div class="center-horizantal" id="R">
+			<div id="R-V">
+			</div>
+			<div id="R-H">
+			</div>
+			<div id="R-H2">
+			</div>
+		</div>
+		<div class="center-vertical" id="H">
+			<div id="H-V">
+			</div>
+			<div id="H-V">
+			</div>			
+		</div>
+		<div class="center-vertical" id="N">
+			<div id="N-I1">
+			</div>
+			<div id="N-I2">
+			</div>
+		</div>
+		<div class="center-vertical" id="F">
+			<div id="F-H">
+			</div>
+			<div id="F-I">
+			</div>
+		</div>
+		<div class="center-vertical" id="I">
+			<div id="I-B">
+				<div id="I-I">
+				</div>
+				<div id="I-I2">
+				</div>	
+			</div>
+			<div id="I-B">
+				<div id="I-I2">
+				</div>
+				<div id="I-I">
+				</div>	
+			</div>
+		</div>
+		<div class="center-vertical" id="G">
+			<div id="G-H">
+			</div>
+			<div id="G-V">
+			</div>
+			<div id="G-H2">
+			</div>
+		</div>
+		<div class="center-vertical" id="H">
+			<div id="H-V">
+			</div>
+			<div id="H-V">
+			</div>			
+		</div>
+		<div class="center-horizantal" id="T">
+			<div id="T-I1">
+			</div>
+			<div id="T-I2">
+			</div>
+		</div>
+		<div class="center-vertical" id="E">
+			<div id="E-H">
+			</div>
+			<div id="E-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="A">
+			<div id="A-V">
+			</div>
+			<div id="A-V2">
+			</div>
+		</div>
+		<div class="center-horizantal" id="O">
+			<div id="O-V">
+			</div>
+		</div>
+		<div class="center-horizantal" id="Q">
+			<div id="Q-V">
+			</div>
+			<div id="Q-I">
+			</div>
+		</div>
+		<div class="center-vertical" id="F">
+			<div id="F-H">
+			</div>
+			<div id="F-I">
+			</div>
+		</div>
+		<div class="center-vertical" id="V">
+			<div id="V-V">
+			</div>
+			<div id="V-H">
+			</div>
+		</div>
+
+		<div class="center-vertical" id="W">
+			<div id="W-B">
+				<div id="W-V2">
+				</div>
+				<div id="W-V2">
+				</div>
+			</div>
+			<div id="W-V">
+			</div>
+		</div>
+		<div class="center-vertical" id="B">
+			<div id="B-H">
+			</div>
+			<div id="B-H2">
+			</div>
+			<div id="B-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="A">
+			<div id="A-V">
+			</div>
+			<div id="A-V2">
+			</div>
+		</div>
+		<div class="center-horizantal" id="R">
+			<div id="R-V">
+			</div>
+			<div id="R-H">
+			</div>
+			<div id="R-H2">
+			</div>
+		</div>
+		<div class="center-vertical" id="X">
+			<div id="X-V">
+			</div>
+			<div id="X-B">
+				<div id="X-H">
+				</div>
+				<div id="X-H">
+				</div>
+			</div>
+			<div id="X-V">
+			</div>
+		</div>
+		<div class="center-horizantal" id="P">
+			<div id="P-V">
+			</div>
+			<div id="P-V2">
+			</div>
+		</div>
+		<div class="center-horizantal" id="Z">
+			<div id="Z-I1">
+			</div>
+			<div id="Z-I2">
+			</div>
+		</div>
+		<div class="center-vertical" id="E">
+			<div id="E-H">
+			</div>
+			<div id="E-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="K">
+			<div id="K-V">
+			</div>
+			<div id="K-H">
+			</div>
+			<div id="K-V">
+			</div>
+		</div>
+		<div class="center-vertical" id="N">
+			<div id="N-I1">
+			</div>
+			<div id="N-I2">
+			</div>
+		</div>
+		<div class="center-vertical" id="M">
+			<div id="M-V">
+			</div>
+			<div id="M-B">
+				<div id="M-V2">
+				</div>
+				<div id="M-V2">
+				</div>
+			</div>
+		</div>
+		<div class="center-horizantal"id="D">
+			<div id="D-V">
+			</div>
+			<div id="D-H">
+			</div>
+		</div>
+		<div class="center-horizantal" id="O">
+			<div id="O-V">
+			</div>
+		</div>
+		<div class="center-horizantal" id="R">
+			<div id="R-V">
+			</div>
+			<div id="R-H">
+			</div>
+			<div id="R-H2">
+			</div>
+		</div>
+		<div class="center-vertical" id="E">
+			<div id="E-H">
+			</div>
+			<div id="E-H">
+			</div>
+		</div>
+		<div class="center-vertical" id="G">
+			<div id="G-H">
+			</div>
+			<div id="G-V">
+			</div>
+			<div id="G-H2">
+			</div>
+		</div>
+		<div class="center-horizantal" id="R">
+			<div id="R-V">
+			</div>
+			<div id="R-H">
+			</div>
+			<div id="R-H2">
+			</div>
+		</div>
+		<div class="center-vertical" id="E">
+			<div id="E-H">
+			</div>
+			<div id="E-H">
+			</div>
+		</div>
+		<div class="center-horizantal" id="T">
+			<div id="T-I1">
+			</div>
+			<div id="T-I2">
+			</div>
+		</div>
+		
+	</div>
+	<div id="container2">
+		<a href="https://y834619756.github.io/Expanded-Tools-Interactive/">
+		<div class="center-vertical" id="H">
+			<div id="H-V">
+			</div>
+			<div id="H-V">
+			</div>			
+		</div>
+		</a>
+		<a href="https://y834619756.github.io/Expanded-Tools-Interactive/">
+		<div class="center-vertical" id="A">
+			<div id="A-V">
+			</div>
+			<div id="A-V2">
+			</div>
+		</div>
+		</a>
+		<a href="https://y834619756.github.io/Expanded-Tools-Interactive/">
+		<div class="center-vertical" id="N">
+			<div id="N-I1">
+			</div>
+			<div id="N-I2">
+			</div>
+		</div>
+		</a>
+		<a href="https://y834619756.github.io/Expanded-Tools-Interactive/">
+		<div class="center-vertical" id="K">
+			<div id="K-V">
+			</div>
+			<div id="K-H">
+			</div>
+			<div id="K-V">
+			</div>
+		</div>
+		</a>
+	</body>
+
+	<script>
+
+
+		
+			function myFunction(x){
+			if(x.matches){
+
+				$(document).ready(function(){
+					$('.center-vertical').mouseenter(function(){
+				
+						$(this).stop().find('div').fadeIn(500);
+			
+					});
+					$('.center-vertical').mouseleave(function(){
+
+						$(this).stop().find('div').fadeTo(3000,1).fadeOut(3000);
+					});
+					$('.center-horizantal').mouseenter(function(){
+				
+						$(this).stop().find('div').fadeIn(500);
+			
+					});
+					$('.center-horizantal').mouseleave(function(){
+
+						$(this).stop().find('div').fadeTo(3000,1).fadeOut(3000);
+					});
+				});
+			}
+			}
+		var x = window.matchMedia("(max-width: 2029px) and (min-width: 2016px)")		
+		myFunction(x)
+		x.addListener(myFunction)
+
+
+		
+
+	</script>
+
+</html>
